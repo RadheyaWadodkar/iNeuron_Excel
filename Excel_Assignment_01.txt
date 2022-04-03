@@ -1,0 +1,50 @@
+1) Microsoft Excel is a software program produced by Microsoft that allows users to organize, format and calculate data with formulas using a 
+spreadsheet system. This software is part of the Microsoft Office suite and is compatible with other applications in the Office suite.
+We use Excel because it makes our daily tasks more efficient. 
+
+2) There have been 30 different versions of Excel, stretching from 1985 to the present day.  
+These days most users today will have Excel 2016, 2019, 2021 or 365.
+
+3) a.Highlight the data that you would like to use for the bar chart.
+   b.Select the Insert tab in the toolbar at the top of the screen. Click on the Bar Chart button Microsoft Excel in the Charts group and 
+   then select a chart from the drop down menu.
+   
+4) Step 1: Gather the database connection details
+You’ll need the following information to connect Excel to SQL Server, so get the details as the first step:
+
+SQL Server Name
+Database Name
+Table or View that contains the information you need
+Login details (if not using Windows authentication)
+The form of the SQL Server Name will depend on whether SQL Server is installed locally, on a network, or a remote location (note that this is the same name as when you connect to SQL Server in SQL Server Management Studio).
+
+Step 2: Connect to SQL Server
+Once SQL Spreads is installed, you’ll see it as a new ribbon tab; go here and click the Design Mode button.
+
+Open the SQL Spreads Designer in Excel
+
+In the SQL Spreads Designer panel on the right side, click the Edit button to open the SQL Server connection dialog.
+
+Open the SQL Server connection dialog
+
+Enter the name of your SQL Server into the SQL Server name field:
+
+Connect to SQL Server dialog
+
+Select if you should connect using your Windows login (Windows Authentication) or enter a user name and password (SQL Server Authentication).  Windows authentication is the more secure of the two options (see here for more information).
+
+Select SQL Server authentication method
+
+Click OK. SQL Spreads will try to connect to the database. If the connection is successful, your databases will show up in the SQL Spreads Designer panel.
+
+Step 3: Select the relevant table in SQL Server
+Now that we’ve created the connection from Excel to SQL Server, we can select which table of data we want to use in Excel.
+
+In the SQL Spreads Designer, click on the database and then select your table.
+
+SQL Spreads Designer AW Table list
+
+As soon as you select a table, the data in the table populated in the Excel sheet.
+
+You can now see all the data in your SQL Server table and use it in your Excel workbook.  The real power with SQL Spreads is the ability to update the data in the table in SQL Server direct from Excel.  For example, I can update the prices in the product table directly in Excel, and save the changes back to SQL Server!
+

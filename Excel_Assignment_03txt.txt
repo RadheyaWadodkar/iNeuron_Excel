@@ -1,0 +1,16 @@
+1) There are two types of cell references: relative and absolute. Relative and absolute references behave differently when copied and filled to other cells. Relative references change when a formula is copied to another cell. 
+   Absolute references, on the other hand, remain constant no matter where they are copied.
+
+2) You can have Excel make a spreadsheet in read only format for others, so that people can read its contents but not edit them, or you can enforce other content restrictions. To do so, click the "File" tab in the ribbon menu,
+   then click "Info." Then, click "Protect Document" and choose one of the options presented.
+
+3) A Pivot Table is used to summarise, sort, reorganise, group, count, total or average data stored in a table. It allows us to transform columns into rows and rows into columns. 
+   It allows grouping by any field (column), and using advanced calculations on them.
+
+4) Lookup functions in Excel are used for looking through a single column or row to find a particular value from the same place in a second column or row. 
+   This often takes place when there are multiple worksheets within a workbook or a large amount of data in a worksheet.
+
+5) Data validation means checking the accuracy and quality of source data before using, importing or otherwise processing data. 
+   Data validation is a feature in Excel used to control what a user can enter into a cell. For example, you could use data validation to make sure a value is a number between 1 and 6, 
+   make sure a date occurs in the next 30 days, or make sure a text entry is less than 25 characters.
+

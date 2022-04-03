@@ -1,0 +1,28 @@
+1) Microsoft Excel ribbon is the row of tabs and icons at the top of the Excel window that allows you to quickly find, 
+   understand and use commands for completing a certain task
+
+2) When evaluating a formula, Excel follows a standard math protocol called "order of operations". In general, Excel's order of operation follows the acronym PEMDAS 
+  (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction) but with some customization to handle the formula syntax in a spreadsheet.
+
+3) To reverse the string “Hello” in cell A1, follow these steps:
+
+In cell B1, type the following formula: =MID($A$1,LEN($A$1)-ROW(B1)+1,1). This should return the last character in the given string, which is “o”.
+Drag the fill handle down (situated at the bottom right of cell B1) until you start seeing “#VALUE!”.Drag the formula till you get the value error
+You should now see each character of the string in “Hello” in each cell of column B, but reversed. Clear any cells containing “#VALUE!”. Here’s what you should finally see in our example:Alphabets in reverse order
+After the last cell of column B, i.e. in cell B6, type the formula: =TRANSPOSE(
+Drag and select the cells B1 to B5.
+Close the parentheses for the TRANSPOSE formula.
+Now select the whole formula in the formula bar and press F9 on your keyboard. This should display the values of each cell from B1 to B5, separated by commas and the whole thing should be surrounded by curly brackets: {“o”,”l”,”l”,”e”,”H”}.
+Remove the opening and closing curly brackets.
+Type “CONCATENATE”, followed by opening parentheses after the equal to sign.
+Close the parentheses after “H”.
+Press the return key.
+Concatenate all the alphabets
+You should now see the reverse of the string “Hello” in cell B6.
+
+
+4) Yes, it is possible. In order to protect your worksheet from getting copied, you need to go into Menu bar >Review > Protect sheet > Password. 
+By entering password, you can secure your worksheet from getting copied by others.
+
+5) The Name Box has several functions. It displays the address of the active cell. It displays the name of the cell, 
+   range or object selected if this has been named. It can be used to name a cell, range or object like a chart.
